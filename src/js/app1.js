@@ -11,12 +11,14 @@
 * Crear el texto que voy a introducir en el espacio
 * Asignar ese texto al espacio donde debe estar
 */
-
+/*para aññadir codigo al html son esta `` comillas no las dobles ni la simples */
 function WriteHelloJavascrit(){
     let acces = document.getElementById("title");
     console.log(acces);
-    let suma = 3+5;
-    let message = "<h1>Hello JavaScript</h1> ";
+    let message = `<h1>Hello JavaScript </h1>`;
     acces.innerHTML = message;
+}
+function SumarNumeros(){
+
 }
 WriteHelloJavascrit();
