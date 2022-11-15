@@ -6,3 +6,6 @@
     height: 10vh;
     margin: 1vh 0 1vh 0;
 }
+#ex-3{
+    flex-direction: column;
+}
