@@ -1,0 +1,8 @@
+.exersise-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 10vh;
+    margin: 1vh 0 1vh 0;
+}

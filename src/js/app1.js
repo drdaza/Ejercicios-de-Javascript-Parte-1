@@ -18,7 +18,4 @@ function WriteHelloJavascrit(){
     let message = `<h1>Hello JavaScript </h1>`;
     acces.innerHTML = message;
 }
-function SumarNumeros(){
-
-}
 WriteHelloJavascrit();
