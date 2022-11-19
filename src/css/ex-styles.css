@@ -6,6 +6,14 @@
     height: 10vh;
     margin: 1vh 0 1vh 0;
 }
-#ex-3{
+.column-box{
+    display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2vh 0 2vh 0;
+}
+label{
+    display: contents;
+    
 }

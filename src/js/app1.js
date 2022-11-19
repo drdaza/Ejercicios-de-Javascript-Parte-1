@@ -11,6 +11,11 @@
 * Crear el texto que voy a introducir en el espacio
 * Asignar ese texto al espacio donde debe estar
 */
+
+import { clickResultButton } from "./ex-4.js";
+
+
+
 /*para aññadir codigo al html son esta `` comillas no las dobles ni la simples */
 function WriteHelloJavascrit(){
     let acces = document.getElementById("title");
@@ -19,3 +24,4 @@ function WriteHelloJavascrit(){
     acces.innerHTML = message;
 }
 WriteHelloJavascrit();
+clickResultButton();
