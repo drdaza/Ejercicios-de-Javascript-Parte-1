@@ -19,13 +19,14 @@
  export function accesNumbers(){
     let firstNumber = document.getElementById("first-num").value;
     let secondNumber = document.getElementById("second-num").value;
-    let numbers = [firstNumber,secondNumber]
+    let thirdNumber = document.getElementById("third-num").value;
+    let numbers = [firstNumber,secondNumber,thirdNumber]
     console.log(numbers);
     return numbers;
  }
  export function whoisMorethan(numbers){
-    let test = [parseInt(numbers[0]), parseInt(numbers[1])];
-    return Math.max(test[0], test[1]);
+    let test = [parseInt(numbers[0]), parseInt(numbers[1]), parseInt(numbers[2])];
+    return Math.max(test[0], test[1],test[2]);
  }
  export function operateNumbers(numbers){
     console.log(typeof numbers[0]);

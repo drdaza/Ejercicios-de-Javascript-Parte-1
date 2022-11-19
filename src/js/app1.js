@@ -14,7 +14,11 @@
 
 import { clickResultButton } from "./ex-4.js";
 
-
+function app(){
+    WriteHelloJavascrit();
+    clickResultButton();
+}
+app();
 
 /*para aññadir codigo al html son esta `` comillas no las dobles ni la simples */
 function WriteHelloJavascrit(){
@@ -23,5 +27,3 @@ function WriteHelloJavascrit(){
     let message = `<h1>Hello JavaScript </h1>`;
     acces.innerHTML = message;
 }
-WriteHelloJavascrit();
-clickResultButton();
