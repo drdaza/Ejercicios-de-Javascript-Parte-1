@@ -5,6 +5,8 @@
 *Operate with the numbers
 *acces at the space of result
 *print the result
+in this js i am doing the three exersises with numbers
+beacuse all of them have the same logic.
   */
  export function clickResultButton(){
     let buttonResult = document.getElementById("result-button");
