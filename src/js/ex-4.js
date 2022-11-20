@@ -1,4 +1,6 @@
-/* Escribe un programa que pida dos números y escriba “La suma de <numero-uno> con <numero-dos> es <resultado>”
+/* 4.Escribe un programa que pida dos números y escriba “La suma de <numero-uno> con <numero-dos> es <resultado>”
+5. Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
+6.Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
 *create the space for both numbers that will operate
 *create the space for the result
 *access at the numbers that have entered

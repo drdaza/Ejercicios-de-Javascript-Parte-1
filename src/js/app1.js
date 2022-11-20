@@ -13,10 +13,13 @@
 */
 
 import { clickResultButton } from "./ex-4.js";
+import { clickButtonVowels } from "./ex-7-10.js";
+
 
 function app(){
     WriteHelloJavascrit();
     clickResultButton();
+    clickButtonVowels();
 }
 app();
 
