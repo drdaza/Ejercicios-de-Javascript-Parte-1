@@ -7,6 +7,9 @@
 * divide the number between the prime numbers less than your square root
 (if is true stop the algoritm)
 * print if is prime number or not
+(Things for added)
+* if is not a prime number, print wich is it divisor 
+(with list that within her has a respuest of the PrimeNumber and the number if is not) 
 */
 
 export function clickPrimeButton(){
