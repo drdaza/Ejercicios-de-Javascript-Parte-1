@@ -12,12 +12,15 @@
 (with list that within her has a respuest of the PrimeNumber and the number if is not) 
 */
 
+import { verifyDivisors } from "./ex-11-12.js";
+
 export function clickPrimeButton(){
     let PrimeButton = document.getElementById("prime-button");
     PrimeButton.addEventListener("click", ()=>
     {
         let number = document.getElementById("prime-number").value;
         printRespuest(number);
+        verifyDivisors(number);
     });
 }
 export function divideFirstPrimeNumbers(number){
