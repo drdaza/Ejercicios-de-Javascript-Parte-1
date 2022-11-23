@@ -13,6 +13,7 @@
 */
 
 import { checkIsPrimeNumber, clickPrimeButton, divideFirstPrimeNumbers, printRespuest, squareRootCheck, valideDireferent} from "./ex-11-15.js";
+import { clickCommonDivisorsButton } from "./ex-13-14.js";
 import { clickResultButton } from "./ex-4.js";
 import { clickButtonVowels } from "./ex-7-10.js";
 
@@ -22,6 +23,7 @@ function app(){
     clickResultButton();
     clickButtonVowels();
     clickPrimeButton();
+    clickCommonDivisorsButton();
 }
 app();
 
